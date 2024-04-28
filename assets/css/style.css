@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header-details {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 33px 0px;
+}
+.header-details .header-details-links ul {
+  display: flex;
+  gap: 56px;
+}
+.header-details .header-details-links ul li {
+  list-style-type: none;
+}
+.header-details .header-details-links ul li a {
+  text-decoration: none;
+  color: #2D2F30;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,24 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.header-details{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin:33px 0px;
+    .header-details-links{
+        ul{
+            display: flex;
+            gap:56px;
+            li{
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                    color: #2D2F30;
+                }
+            }
+        }
+    }
+}
